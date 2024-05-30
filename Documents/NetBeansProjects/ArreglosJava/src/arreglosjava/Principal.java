@@ -55,7 +55,7 @@ public class Principal {
         Atleta campeon = competencia.obtenerCampeon();
         JOptionPane.showMessageDialog(null, "El nombre del atleta con el menor tiempo es " + campeon.getNombre() +
                 " de nacionalidad " + campeon.getNacionalidad() +
-                " cuyo tiempo fue " + campeon.getTiempo()+"\nRoro los ama lindos");
+                " su tiempo fue " + campeon.getTiempo());
     }
 
     public static void mostrarAtletasPorPais(Competencia competencia) {
